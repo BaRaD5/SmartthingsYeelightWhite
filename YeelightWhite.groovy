@@ -1,20 +1,20 @@
 metadata {
 	definition (name: "Yeelight White", namespace: "simontether", author: "Simon Tether", mnmn: "SmartThings", vid: "generic-dimmer") {
-		capability "Switch Level"
-		capability "Color Temperature"
-		capability "Switch"
+	capability "Switch Level"
+	capability "Color Temperature"
+	capability "Switch"
         capability "Relay Switch"
-		capability "Refresh"
-		capability "Actuator"
+	capability "Refresh"
+	capability "Actuator"
 
-		command "reset"
+	command "reset"
         command "refresh"
         
         attribute "colorName", "string"
         
         command "coolWhite"
         command "warmWhite"
-		command "daylight"
+	command "daylight"
 	}
 
 	simulator {
