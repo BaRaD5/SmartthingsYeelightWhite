@@ -40,7 +40,7 @@ metadata {
     valueTile("level", "device.level", inactiveLabel: false, decoration: "flat") {
         state "level", label: 'Level ${currentValue}%'
     }
-    controlTile("colorTempControl", "device.colorTemperature", "slider", height: 1, width: 1, inactiveLabel: false, range:"(1700..6500)") {
+    controlTile("colorTempControl", "device.colorTemperature", "slider", height: 1, width: 1, inactiveLabel: false, range:"(2700..6500)") {
         state "colorTemperature", action:"setColorTemperature"
     }
     standardTile("coolWhite", "device.colorName", height: 1, width: 1, decoration: "flat", inactiveLabel: false, canChangeIcon: false) {
